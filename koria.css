@@ -1,116 +1,40 @@
- box-sizing: border-box;
-
-
-body{
-    font-family: 'Open Sans', sans-serif;
-    background-color: white;
-}
-.pembungkus-kop-surat{
-    margin-bottom: 28px;
-}
-
-.logo{
-    width: 100px;
-    height: 100px;
-    margin-left: 50px;
-    margin-bottom: 35px;
-}
-
-.nama-kampus-1{
-    margin-left: 75px;
-    font-size: 25px;
-}
-
-ol li{
-    margin-top: 10px;
-}
-
-.nama-kampus-2{
-    margin-left: 200px;
-    font-size: 45px;
-}
-
-hr{
+body {
+    background-color: antique white;
+    padding: auto;
     margin-left: 50px;
     margin-right: 50px;
-    height: 5px;
-    background-color: black;
-}
+  }
 
-.tengah{
+  h1 {
     text-align: center;
-}
-
-.pembungkus-form{
-    margin-left: 50px;
-    margin-right: 45px;
-}
-
-input[type=text], select, textarea, input[type=date], input[type=number]{
+  }
+  
+  .top{
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .teman:hover {
+    background-color: aquamarine;
+  }
+   
+  .head-tabel {
+    background-color: rgb(222, 184, 135);
+  }
+  
+  .tabel {
+    border-collapse: collapse;
     width: 100%;
-    padding: 8px;
-    border: 1px solid white;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    line-height: 20px;
-    max-width: 1170px;
-}
+  }
+  
+  .aksi {
+    background-color: rgb(255, 234, 208);
+    font-family: Arial;
+  }
+  
+  .aksi:hover {
+    background-color: rgb(255, 227, 200);
+  }
 
-input[type=text], select, textarea, input[type=date], input[type=number], input[type=radio]{
-    margin-left: 20px;
-    margin-top: 10px;
-}
 
-fieldset{
-    margin-top: 20px;
-}
-
-.isi-form{
-    margin-left: 50px;
-}
-.sub-form{
-    margin-left: 20px;
-}
-textarea{
-    height: 150px;
-}
-
-option:first-child{
-    display: none;
-}
-
-.tanda-tangan{
-    margin-left: 1024px;
-    margin-top: 20px;
-}
-
-.tanggal{
-    min-width: 50px;
-}
-
-.tombol{
-    background-color: green;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 5px;
-    text-decoration: none;
-    margin-left: 10px;
-    min-width: 80px;
-}
-
-.tombol:hover{
-    background-color: green;
-}
-
-.tombol-merah{
-    background-color: red;
-}
-
-.tombol-merah:hover{
-    background-color: red;
-}
