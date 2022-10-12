@@ -1,0 +1,53 @@
+.marklee .haechan{
+    font-weight: bold;
+}
+
+.haiii{
+    background-color: rgb(224, 103, 103);																												;
+    padding: 10px;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 10px;
+    text-align: justify;
+}
+.haiii-marklee{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.marklee{
+    position: fixed;
+    background-color: rgb(238, 123, 123);
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.1s ease-in-out;
+    box-shadow:1px 1px 10px;
+    z-index: 99;
+}
+.marklee .haiii-marklee{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.1s ease-in-out;
+}
+
+.marklee ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.marklee a{
+    color: black;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.marklee a:hover{
+    color: black;
+}
+
